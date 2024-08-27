@@ -1,0 +1,54 @@
+# Ignore plugin directories
+/pack/
+/plugin/
+.avante_chat_history/
+
+# Ignore compiled Lua files
+*.lua.c
+
+# Ignore swap files
+*.swp
+*.swo
+
+# Ignore undo files
+*.un~
+
+# Ignore netrw history
+.netrwhist
+
+# Ignore shada files (shared data)
+**/shada/
+
+# Ignore log files
+*.log
+
+# Ignore backup files
+*~
+
+# Ignore local configuration files
+local.vim
+
+# Ignore language server protocol (LSP) files
+.lsp/
+
+# Ignore packer compiled files
+packer_compiled.lua
+
+# Ignore lazy.nvim plugin manager files
+lazy-lock.json
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+
+# Ignore session files
+Session.vim
+
+# Ignore vscode settings if you use vscode with neovim
+.vscode/
+
+# Ignore any potential node_modules (if using npm packages)
+node_modules/
